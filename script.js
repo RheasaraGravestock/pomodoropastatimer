@@ -16,9 +16,9 @@ const statusDisplay = document.getElementById("status");
 
 
 
-const workTime = 1500;
-const breakTime = 300;
-const longBreak = 1800;
+//const workTime = 1500;
+//const breakTime = 300;
+//const longBreak = 1800;
 
 let mode = "work";
 let pomodoroCount = 0;
