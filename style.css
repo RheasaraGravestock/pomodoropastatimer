@@ -1,0 +1,79 @@
+@import url(https://db.onlinewebfonts.com/c/cc8d4f39defd5946ea3fc7c26357a541?family=CCSpaghettiWesternSwash+W00+Rg);
+
+
+
+body {
+    min-height: 100vh;
+    text-align: center;
+    background: linear-gradient(
+        75deg,
+        rgb(162, 62, 53), rgb(78, 167, 99)
+    );
+}
+
+h1 {
+    color: antiquewhite;
+    font-family: "CCSpaghettiWesternSwash W00 Rg";
+    font-size: 7rem; 
+    font-weight:lighter;
+}
+
+#status {
+    color: antiquewhite;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.timer-wrapper {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 2rem auto;
+}
+
+.timer {
+    font-size: 10em;
+    color: antiquewhite;
+    font-variant-numeric: tabular-nums;
+    position: absolute;
+    top: 53.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.button-wrapper {
+    justify-content: center;
+    gap: 1em;
+}
+
+button {
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    transform:translateY(-10px)
+}
+
+#startBtn{
+    background-color: rgb(78, 167, 99);
+    color: antiquewhite;
+}
+
+#pauseBtn{
+    background-color:rgb(162, 62, 53);
+    color: antiquewhite;
+}
+
+#resetBtn{
+    background-color: rgb(64, 90, 161);
+    color: antiquewhite;
+}
